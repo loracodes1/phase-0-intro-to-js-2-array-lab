@@ -10,5 +10,11 @@ function destructivelyAppendCat(name) {
   }
 
   function destructivelyRemoveLastCat(){
-    cats.shift
+    cats.pop()
   }
+function destructivelyRemoveFirstCat(){
+    cats.shift()
+}
+function appendcat(name){
+    return [...cats,name]
+}
